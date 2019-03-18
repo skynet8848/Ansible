@@ -1,0 +1,59 @@
+[Porter3]
+smily-vsrx    ansible_host=10.208.177.19   
+honor-vsrx    ansible_host=10.208.177.15   
+[slt60]
+slt60-lemon   ansible_host=10.48.176.87    device_role=0 
+slt60-loquat  ansible_host=10.48.176.88    device_role=1
+slt60-j7      ansible_host=10.48.176.85    
+[T_DHCP]
+slt123-wyk    ansible_host=10.208.176.57    device_role=0
+slt123-pyke   ansible_host=10.208.176.58    device_role=1
+slt123-north  ansible_host=10.208.176.59    
+slt123-wall   ansible_host=10.208.176.60    
+zinnia        ansible_host=10.208.86.23     
+[E_DHCP]
+g07-27        ansible_host=10.208.177.112    
+g07-28        ansible_host=10.208.177.113    
+g07-29        ansible_host=10.208.177.114    device_role=0
+g07-31        ansible_host=10.208.177.115    device_role=1
+kvm-dhcp      ansible_host=10.208.176.49     
+[GTP_SCTP]
+slt106-kb   ansible_host=10.208.177.27     device_role=0
+slt106-ai   ansible_host=10.208.177.28     device_role=1
+slt106-tmac   ansible_host=10.208.177.29     
+[NGTP]
+slt102-python   ansible_host=10.208.86.39     device_role=0
+slt102-cobra    ansible_host=10.208.86.40     device_role=1 
+slt102-adder    ansible_host=10.208.86.42     
+slt102-mamba    ansible_host=10.208.181.18      
+[slt15]
+slt15-medlar   ansible_host=10.208.177.41     device_role=0
+slt15-ginseng  ansible_host=10.208.177.45     device_role=1
+[slt17]
+slt17-balsam   ansible_host=10.208.178.41     device_role=0
+slt17-begonia  ansible_host=10.208.178.45     device_role=1
+slt17-j7       ansible_host=10.208.178.71
+[slt12]
+slt12-anemone   ansible_host=10.208.86.45     device_role=1
+slt12-jasmine   ansible_host=10.208.86.41     device_role=0
+[slt11]
+slt11-rose      ansible_host=10.208.85.41     device_role=1
+slt11-orchid    ansible_host=10.208.85.45     device_role=0
+[MiniPDT_US]
+nonibert   ansible_host=10.48.9.133     device_role=0
+lonibert   ansible_host=10.48.9.104     device_role=1
+qiguo-2    ansible_host=10.48.148.108   device_role=0
+qinguo-2   ansible_host=10.48.148.107   device_role=1
+zhaoguo-2  ansible_host=10.48.148.109
+weiguo-2   ansible_host=10.48.148.110
+hanguo-2   ansible_host=10.48.148.111
+chuguo-2   ansible_host=10.48.148.112
+[MiniPDT_CN]
+pdt-xian       ansible_host=10.208.133.151     device_role=0
+pdt-xianyang   ansible_host=10.208.133.153     device_role=1
+pdt-weinan     ansible_host=10.208.133.166
+pdt-tongchuan  ansible_host=10.208.133.167     device_role=0
+pdt-yanan      ansible_host=10.208.133.174     device_role=1
+pdt-yulin      ansible_host=10.208.133.175
+[all:vars]
+ansible_python_interpreter=/usr/local/bin/python
